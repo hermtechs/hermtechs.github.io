@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(227, 231, 233);
+}
+
+:root{
+    --clr:#fff;
+    --font-header: Comic;
+    --font-body-paragraphs:  sans-serif;
+    --font-weight:lighter
+}
+/*navigation-section*/
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(3, 3, 14);
+    opacity:.8;
+    height: 60px;
+    width: 100%;
+    border-radius:0px 0 4px 4px;
+    position: fixed;
+    z-index: 1;
+    margin-top: .01em;
+}
+.nav-text{ 
+color:var(--clr);
+font-size: 1.5rem;
+position: relative;
+top: .7em;
+cursor: pointer;
+}
+
+.nav-text2{margin-left: .5em;}
+.nav-text4{margin-right: .5em;}
+.nav-text4{
+    transition:text-decoration 3s ease-in-out;
+}
+.nav-text4:hover{
+    text-decoration: underline;
+}
+.nav-text3:hover{
+    text-decoration: underline;
+}
+.nav-items a{
+    text-decoration: none;
+}
+
+/*introduction*/
+.intro{
+    background-color: rgb(10, 10, 22);
+    height: 210px; 
+    opacity:1;
+}
+.intro-heading1{
+    color: #ffffffe7;
+    padding: .8em;
+    text-align: center;
+    font-family: var(--font-header);
+    font-weight: lighter;
+    position: relative;
+    top: 3em;
+}
+.intro-heading2{
+    padding: .8em;
+    color:#fff;
+    text-align: center;
+    font-family: var(--font-header);
+    font-weight: lighter;
+    position: relative;
+    top: 2.5em;
+}
+.news-heading{
+    color: #fff;
+    padding: .4em;
+    background-color: rgb(17, 23, 24);
+    text-align: center;
+    margin-bottom: .2em;
+    border-radius: 4px;
+}
+
+/*main body*/
+main{
+    padding: 2em;
+}
+.img1{
+    max-width: 350px
+}
+.main-body-text{
+    max-width: 380px;
+    padding: 8px;
+    margin-bottom: 9px;
+    border-radius: 8px;
+    border: 1px solid rgb(160, 143, 143);
+}
+.main-body-text h1{
+    margin-bottom: .5em;}
+.feeds-section{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+.img1{
+    object-fit: cover;
+    border-radius: 4px;
+}
+.hidden-text{
+    display: none;
+}
+.card{
+    box-shadow: 2px 2px 2px rgb(196, 193, 193);
+}
+.card:hover{
+    box-shadow: 4px 4px 4px rgb(196, 193, 193);
+}
+body p{
+    font-family: var(--font-body-paragraphs);
+    font-weight: var(--font-weight);
+}
+.headings{font-weight: 550;
+           font-family:var(--font-body-paragraphs);
+}
+/*read-more-text*/
+.read-more-text{
+ position: relative;
+ top: .4em;
+ left: 17em;
+ background-color: rgb(168, 231, 240);
+ font-style: italic;
+ border-radius: 2px;
+ font-weight: bolder;
+ padding: .2em;
+ cursor: pointer;
+}
+/*footer*/
+footer{
+    background-color:rgb(201, 201, 223);
+}
+footer div ul li{
+    list-style: none;
+    display: inline-flex;
+    padding: .3em;
+    position: relative;
+    left: 25%;
+    
+}

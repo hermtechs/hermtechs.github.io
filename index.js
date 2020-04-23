@@ -1,0 +1,1 @@
+const readMorebtn = document.getElementsByClassName("read-more-btn")
