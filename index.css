@@ -125,6 +125,7 @@ body p{
 #readBtn{
     background-color: rgb(173, 216, 230);
     box-shadow: none;
+    color: lightslategrey;
 }
 #more{display: none;}
 .ReadBtn{
