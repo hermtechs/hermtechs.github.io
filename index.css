@@ -107,9 +107,7 @@ justify-content: space-evenly;
     object-fit: cover;
     border-radius: 4px;
 }
-.hidden-text{
-    display: none;
-}
+
 .card{
     box-shadow: 2px 2px 2px rgb(196, 193, 193);
 }
@@ -124,17 +122,16 @@ body p{
            font-family:var(--font-body-paragraphs);
 }
 /*read-more-text*/
-.read-more-text{
- position: relative;
- top: .4em;
- left: 17em;
- background-color: rgb(168, 231, 240);
- font-style: italic;
- border-radius: 2px;
- font-weight: bolder;
- padding: .2em;
- cursor: pointer;
+#readBtn{
+    background-color: rgb(173, 216, 230);
+    box-shadow: none;
 }
+#more{display: none;}
+.ReadBtn{
+    background-color: rgba(184, 176, 176, 0.925);
+    border: none;
+    border-radius: 2px;
+        }
 /*footer*/
 footer{
     background-color:rgb(201, 201, 223);
