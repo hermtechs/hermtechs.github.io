@@ -49,6 +49,47 @@ cursor: pointer;
     text-decoration: none;
 }
 
+/*SIDE-MENU*/
+.sidebar{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: rgb(13, 13, 31);
+    opacity: .8;
+    z-index: 2;
+}
+.sidebar header{
+    font-size: 22px;
+    color: #fff;
+    padding-left: 20px;
+    line-height: 35px;
+    background: #020f14;
+    user-select:none;
+    cursor: pointer;
+}
+.sidebar ul a{
+    display: block;
+    padding-left: 40px;
+    line-height: 80px;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+    transition: 1s;
+}
+.sidebar ul li:hover a{
+    padding-left: 60px;
+}
+.hideit{
+    display: none;
+}
+.default-hide{display: none;}
+
 /*introduction*/
 .intro{
     background-color: rgb(10, 10, 22);
