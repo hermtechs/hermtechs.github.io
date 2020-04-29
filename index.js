@@ -8,7 +8,7 @@ function hideSideBar(){
 const entireSideBar = document.getElementsByClassName('sidebar');
 entireSideBar[0].classList.add("hideit");
 }
-
+/*
 var readMoreBtns =document.getElementsByClassName("ReadBtn");
 for(var i = 0; i<readMoreBtns.length; i++){
     var eachBtn = readMoreBtns[i];
@@ -31,3 +31,4 @@ function ReadMore() {
       moreText.style.display = "inline";
     }
   }
+*/
