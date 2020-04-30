@@ -32,6 +32,7 @@ font-size: 1.5rem;
 position: relative;
 top: .7em;
 cursor: pointer;
+user-select: none;
 }
 
 .nav-text2{margin-left: .5em;}
@@ -48,7 +49,6 @@ cursor: pointer;
 .nav-items a{
     text-decoration: none;
 }
-
 /*SIDE-MENU*/
 .sidebar{
     margin: 0;
@@ -60,7 +60,6 @@ cursor: pointer;
     width: 250px;
     height: 100%;
     background: rgb(13, 13, 31);
-    opacity: .8;
     z-index: 2;
 }
 .sidebar header{
@@ -89,7 +88,6 @@ cursor: pointer;
     display: none;
 }
 .default-hide{display: none;}
-
 /*introduction*/
 .intro{
     background-color: rgb(10, 10, 22);
@@ -164,19 +162,24 @@ body p{
 }
 /*read-more-text*/
 #readBtn{
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(173, 216, 230);
     box-shadow: none;
-    color: lightslategrey;
 }
 #more{display: none;}
 .ReadBtn{
-    background-color: rgba(184, 176, 176, 0.925);
+    background-color: rgb(207, 207, 207);
     border: none;
     border-radius: 2px;
+    color: lightslategrey;
         }
 /*footer*/
 footer{
-    background-color:rgb(201, 201, 223);
+    background-color:rgb(150, 150, 163);
+}
+.followUs-text{
+    font-weight: bolder;
+    font-size: 2em;
+    padding-left: 20px;
 }
 footer div ul li{
     list-style: none;
@@ -184,5 +187,4 @@ footer div ul li{
     padding: .3em;
     position: relative;
     left: 25%;
-    
 }
