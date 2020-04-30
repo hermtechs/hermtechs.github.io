@@ -7,7 +7,6 @@
    <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
-    <script src="index.js" async defer></script>
     <script src="https://kit.fontawesome.com/451579efa6.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -15,13 +14,12 @@
     <div class="nav-items">
         <!--<img src="./images/menu.svg ">-->
         
-        <i class="fas fa-bars nav-text nav-text2"></i>
+        <i class="fas fa-bars nav-text nav-text2" onclick="showSideBar()"></i>
        <a href="#"><h3 class="nav-text nav-text3">We-are-Uganda</h3></a>
         <a href="about.html"><h3 class="nav-text nav-text4">ABOUT</h3></a>
     </div>   
     </nav>
-    
-     <div class="sidebar default-hide">
+    <div class="sidebar default-hide">
         <header> <i class="fas fa-bars sidebar-menu-btn" onclick="hideSideBar()"></i></header>
         <ul>
         <li><a href="href=#"> <i class="fas fa-qrcode"></i>Dashboard </a></li>
@@ -33,6 +31,7 @@
         <li><a href="href=#"> <i class="fas fa-envelope"></i>Contacts </a></li>
         </ul>
     </div>
+
 
     <section class="intro">
         <div>
@@ -64,7 +63,7 @@
         odit quod reprehenderit
         veniam voluptatem iusto illum.</span>
     </p>
-       <button class="ReadBtn" id="myBtn">Read-more</button>
+       <button class="ReadBtn readBtn1" id="myBtn">Read-more</button>
 
     </div>
     
@@ -83,7 +82,7 @@
         odit quod reprehenderit
         veniam voluptatem iusto illum.</span>
     </p>
-       <button class="ReadBtn" id="myBtn">Read-more</button>
+       <button class="ReadBtn readBtn2" id="myBtn">Read-more</button>
       </div>
       <div class="main-body-text card card3">
         <img src="./images/img_avata-male.png" class="img1" alt="" height="250px" width="400px">
@@ -101,7 +100,7 @@
             odit quod reprehenderit
             veniam voluptatem iusto illum.</span>
         </p>
-           <button class="ReadBtn" id="myBtn">Read-more</button>
+           <button class="ReadBtn readBtn3" id="myBtn">Read-more</button>
         </div>
         <div class="main-body-text card card4">
             <img src="./images/img_avata-male.png" class="img1" alt="" height="250px" width="400px">
@@ -118,7 +117,7 @@
             odit quod reprehenderit
             veniam voluptatem iusto illum.</span>
         </p>
-           <button class="ReadBtn" id="myBtn">Read-more</button>
+           <button class="ReadBtn readBtn4" id="myBtn">Read-more</button>
             </div>
             <div class="main-body-text card card2">
                 <img src="./images/img_avatar-female.png" class="img1" alt="" height="250px" width="400px"> 
@@ -136,7 +135,7 @@
             odit quod reprehenderit
             veniam voluptatem iusto illum.</span>
         </p>
-           <button class="ReadBtn" id="myBtn">Read-more</button>
+           <button class="ReadBtn readBtn5" id="myBtn">Read-more</button>
               </div>
               <div class="main-body-text card card4">
                 <img src="./images/img_avata-male.png" class="img1" alt="" height="250px" width="400px">
@@ -153,14 +152,14 @@
                     odit quod reprehenderit
                     veniam voluptatem iusto illum.</span>
                 </p>
-                   <button class="ReadBtn" id="myBtn">Read-more</button>
+                   <button class="ReadBtn readBtn6" id="myBtn">Read-more</button>
                 </div>
      </div>
 </main>
 <footer>
     <div>
     <ul>
-        <li<h4>Follow us</h4></li>
+        <li<h4 class="followUs-text">Follow us</h4></li>
         <li><a href="face.com"><img src="./images/facebook.svg" alt="" height="27px" width="30px"></i></a></li>
         <li><a href="face.com"><img src="./images/linkedin.svg" alt="" height="30px" width="30px"></a></li>
         <li><a href="face.com"><img src="./images/instagram.svg" alt="" height="27px" width="30px"></a></li>
@@ -169,5 +168,7 @@
 </div>
     </footer>
 </footer>
+
+ <script src="index.js" async defer></script>
 </body>
 </html>
