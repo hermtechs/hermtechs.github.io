@@ -71,12 +71,13 @@ user-select: none;
 .sidebar ul a{
     display: block;
     padding-left: 40px;
-    line-height: 80px;
+    line-height: 50px;
     height: 100%;
     width: 100%;
     color: #fff;
     border-bottom: 1px solid rgba(255, 255, 255, .1);
     transition: 1s;
+    font-size:1rem;
 }
 .sidebar ul li:hover a{
     padding-left: 60px;
