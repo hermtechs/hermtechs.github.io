@@ -18,7 +18,7 @@ body{
     display: flex;
     justify-content: space-between;
     background-color: rgb(3, 3, 14);
-    opacity:.8;
+    opacity:.9;
     height: 60px;
     width: 100%;
     border-radius:0px 0 4px 4px;
@@ -37,9 +37,6 @@ user-select: none;
 
 .nav-text2{margin-left: .5em;}
 .nav-text4{margin-right: .5em;}
-.nav-text4{
-    transition:text-decoration 3s ease-in-out;
-}
 .nav-text4:hover{
     text-decoration: underline;
 }
@@ -62,7 +59,7 @@ user-select: none;
     background: rgb(13, 13, 31);
     z-index: 2;
 }
-.sidebar header{
+/*.sidebar header{
     font-size: 22px;
     color: #fff;
     padding-left: 20px;
@@ -70,7 +67,7 @@ user-select: none;
     background: #020f14;
     user-select:none;
     cursor: pointer;
-}
+}*/
 .sidebar ul a{
     display: block;
     padding-left: 40px;
@@ -88,6 +85,10 @@ user-select: none;
     display: none;
 }
 .default-hide{display: none;}
+
+i:hover > .sidebar{
+display: block;
+}
 /*introduction*/
 .intro{
     background-color: rgb(10, 10, 22);
