@@ -185,13 +185,14 @@ footer{
     padding-left: 20px;
     font-family: var(--font-header);
     user-select: var(--user-select);
+    color:#fff;
 }
 footer div ul li{
     list-style: none;
     display: inline-flex;
     padding: .5em;
     position: relative;
-    left: 22%;
+    left: 20%;
 }
 #copyright{
     text-align: center;
@@ -199,4 +200,5 @@ footer div ul li{
     font-weight: bolder;
     user-select:var(--user-select);
     font-family: var(--font-header);
+    color:#fff;
 }
