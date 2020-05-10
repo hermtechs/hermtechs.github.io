@@ -70,10 +70,14 @@ user-select:var(--user-select);
     user-select:none;
     cursor: pointer;
 }*/
+.sidebar ul{
+bottom:.5em;
+}
+
 .sidebar ul a{
     display: block;
     padding-left: 40px;
-    line-height: 60px;
+    line-height: 30px;
     height: 100%;
     width: 100%;
     color: #fff;
