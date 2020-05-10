@@ -71,13 +71,13 @@ user-select:var(--user-select);
     cursor: pointer;
 }*/
 .sidebar ul{
-bottom:.5em;
+bottom:.1em;
 }
 
 .sidebar ul a{
     display: block;
     padding-left: 40px;
-    line-height: 30px;
+    line-height: 50px;
     height: 100%;
     width: 100%;
     color: #fff;
