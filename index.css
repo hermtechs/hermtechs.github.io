@@ -72,6 +72,7 @@ user-select:var(--user-select);
 }*/
 .sidebar ul{
 bottom:.1em;
+top: calc(100% +.1em);
 }
 
 .sidebar ul a{
@@ -81,11 +82,12 @@ bottom:.1em;
     height: 100%;
     width: 100%;
     color: #fff;
+    font-size:.2em;
     border-bottom: 1px solid rgba(255, 255, 255, .1);
     transition: .5s;
 }
 .sidebar ul li:hover a{
-    padding-left: 55px;
+    padding-left: 20px;
 }
 .hideit{
     display: none;
