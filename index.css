@@ -55,7 +55,6 @@ user-select:var(--user-select);
     text-decoration: none;
     position: fixed;
     left: 0;
-    top:-.2em;
     width: 250px;
     height: 100%;
     background: rgb(13, 13, 31);
