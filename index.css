@@ -11,7 +11,7 @@ body{
     --clr:#fff;
     --font-header: Comic;
     --font-body-paragraphs:  sans-serif;
-    --font-weight:lighter;
+    --font-weight:light;
     --user-select:none;
 }
 /*navigation-section*/
