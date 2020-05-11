@@ -221,9 +221,7 @@ footer div ul li{
     padding-top: 5em;
 }
 .contact-section{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
+    text-alig:center;
 }
 .about-section{
     text-align: center;
