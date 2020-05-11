@@ -221,7 +221,7 @@ footer div ul li{
     padding-top: 5em;
 }
 .contact-section{
-    text-alig:center;
+    text-align:center;
 }
 .about-section{
     text-align: center;
@@ -242,7 +242,7 @@ footer div ul li{
     background-color:rgb(150, 150, 163);
     max-width: 250px;
     border-radius: 4px;
-    box-shadow: 2px solid lightgrey;
+    box-shadow: 2px 2px solid lightgrey;
 }
 .contact-img1{
 border-radius:50%;
