@@ -11,7 +11,7 @@ body{
     --clr:#fff;
     --font-header: Comic;
     --font-body-paragraphs:  sans-serif;
-    --font-weight:700;
+    --font-weight:lighter;
     --user-select:none;
 }
 /*navigation-section*/
@@ -168,6 +168,7 @@ justify-content: space-evenly;
 body p{
     font-family: var(--font-body-paragraphs);
     font-weight: var(--font-weight);
+    line-height: 1.5em;
 }
 .headings{font-weight: 550;
            font-family:var(--font-body-paragraphs);
@@ -215,6 +216,47 @@ footer div ul li{
 .hide-dots{
     display:none;
 }*/
+/*ABOUT SECTION*/
 .about-main{
     padding-top: 5em;
+}
+.contact-section{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.about-section{
+    text-align: center;
+}
+.about-section div p{
+    line-height: 1.5em;
+}
+.about-section-title{
+    text-align: center;
+    padding: .5em;
+    display: block;
+    border-bottom: 1px solid rgb(194, 189, 189);
+}
+.contact-card{
+    border: 1px solid lightgray;
+    padding: .5em;
+    margin-bottom: .5em;
+    background-color: rgb(110, 103, 103);
+    max-width: 250px;
+    border-radius: 4px;
+    box-shadow: 2px solid lightgrey;
+}
+.contact-img1{
+border-radius:50%;
+object-fit: cover;
+}
+.contact-img2{
+    border-radius:50%;
+    object-fit: cover;
+}
+.contact-name{
+    text-align: center;
+}
+.contact-name,.staff-role-name{
+color: #fff;
 }
