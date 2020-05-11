@@ -222,6 +222,10 @@ footer div ul li{
 }
 .contact-section{
     text-align:center;
+    list-style:none;
+}
+.contact-section ul li{
+    display:inline-flex;
 }
 .about-section{
     text-align: center;
