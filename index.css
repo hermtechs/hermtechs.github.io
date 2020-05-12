@@ -18,8 +18,9 @@ body{
 .nav-items{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(3, 3, 14);
-    opacity:.9;
+    /*background-color: rgb(3, 3, 14);*/
+    background:#BF0040;
+   /* opacity:.9;*/
     height: 60px;
     width: 100%;
     border-radius:0px 0 4px 4px;
@@ -57,23 +58,16 @@ user-select:var(--user-select);
     left: 0;
     width: 250px;
     height: 100%;
-    background: rgb(3, 3, 14);
+   /* background: rgb(3, 3, 14);*/
+   background: #BF0040;
     z-index: 2;
 
 }
-/*.sidebar header{
-    font-size: 22px;
-    color: #fff;
-    padding-left: 20px;
-    line-height: 35px;
-    background: #020f14;
-    user-select:none;
-    cursor: pointer;
-}*/
+
 .sidebar ul a{
     display: block;
     padding-left: 40px;
-    line-height: 60px;
+    line-height: 40px;
     height: 100%;
     width: 100%;
     color: #fff;
@@ -100,7 +94,8 @@ display: block;
 }
 /*introduction*/
 .intro{
-    background-color: rgb(10, 10, 22);
+    /*background-color: rgb(10, 10, 22);*/
+    background: #BF0040;
     height: 210px; 
     opacity:1;
 }
@@ -124,9 +119,11 @@ display: block;
     top: 2.5em;
 }
 .news-heading{
+    display: block;
     color: #fff;
     padding: .4em;
-    background-color: rgb(17, 23, 24);
+    /*background-color: rgb(17, 23, 24);*/
+    background: #BF0040;
     text-align: center;
     margin-bottom: .2em;
     border-radius: 4px;
@@ -188,7 +185,8 @@ body p{
         }
 /*footer*/
 footer{
-    background-color:rgb(150, 150, 163);
+    /*background-color:rgb(150, 150, 163);*/
+    background: #BF0040;
 }
 .follow-us-text{
     font-weight: bolder;
@@ -221,12 +219,7 @@ footer div ul li{
     padding-top: 5em;
 }
 .contact-section{
-    text-align:center;
-}
-.contact-section ul li{
-    list-style:none;
-    display:inline-flex;
-    
+display: grid;
 }
 .about-section{
     text-align: center;
@@ -244,10 +237,20 @@ footer div ul li{
     border: 1px solid lightgray;
     padding: .5em;
     margin-bottom: .5em;
-    background-color:rgb(150, 150, 163);
+    /*background-color: rgb(110, 103, 103);*/
+    background: rgb(231, 74, 127);
     max-width: 250px;
     border-radius: 4px;
-    box-shadow: 2px 2px solid lightgrey;
+    box-shadow: 2px 2px 2px rgb(247, 164, 164);
+}
+.card:hover{
+    box-shadow: 4px 4px 4px rgb(196, 193, 193);
+}
+.contact-card ul li{
+    display: inline-flex;
+    list-style: none;
+    padding: .1em;
+    margin-left: 10%;
 }
 .contact-img1{
 border-radius:50%;
@@ -257,7 +260,7 @@ object-fit: cover;
     border-radius:50%;
     object-fit: cover;
 }
-.contact-name{
+.contact-name, .staff-role-name{
     text-align: center;
 }
 .contact-name,.staff-role-name{
