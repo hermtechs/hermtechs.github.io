@@ -11,7 +11,7 @@ body{
     --clr:#fff;
     --font-header: Comic;
     --font-body-paragraphs:  sans-serif;
-    --font-weight:lighter;
+    --font-weight:light;
     --user-select:none;
 }
 /*navigation-section*/
@@ -202,6 +202,10 @@ footer div ul li{
     position: relative;
     left: 22%;
 }
+/*
+.about-footer{
+    width: calc(100% + 100px);
+}*/
 #copyright{
     text-align: center;
     padding: .4em;
@@ -210,16 +214,22 @@ footer div ul li{
     font-family: var(--font-header);
     color:#fff;
 }
-/*Manipulating styles with JS on ShowMore-ShowLess button
-.hide-dots{
-    display:none;
-}*/
+
 /*ABOUT SECTION*/
 .about-main{
     padding-top: 5em;
 }
+.website-name{
+    color: #DC143C;
+    font-weight: bold;
+}
 .contact-section{
-display: grid;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #000000;
+border-radius: 4px;
+/*width: calc( 100% + 50px);*/
 }
 .about-section{
     text-align: center;
@@ -230,21 +240,35 @@ display: grid;
 .about-section-title{
     text-align: center;
     padding: .5em;
+    padding-bottom: 1em;
     display: block;
     border-bottom: 1px solid rgb(194, 189, 189);
 }
 .contact-card{
-    border: 1px solid lightgray;
+    border: 1px solid rgb(34, 33, 33);
     padding: .5em;
     margin-bottom: .5em;
     /*background-color: rgb(110, 103, 103);*/
-    background: rgb(231, 74, 127);
+    background: #000000;
     max-width: 250px;
     border-radius: 4px;
-    box-shadow: 2px 2px 2px rgb(247, 164, 164);
+    box-shadow: 2px 2px 2px #131212;
+    border-radius: 8px;
 }
-.card:hover{
-    box-shadow: 4px 4px 4px rgb(196, 193, 193);
+.contact-card:hover{
+    box-shadow: 4px 4px 4px #131212;;
+}
+.contact-card ul{
+    background-color: rgb(87, 82, 82);
+    border-radius: 8px;
+}
+.author-social-list{
+    position: relative;
+    top: .4em;
+}
+.developer-social-list{
+    position: relative;
+    top: .4em;
 }
 .contact-card ul li{
     display: inline-flex;
@@ -252,13 +276,16 @@ display: grid;
     padding: .1em;
     margin-left: 10%;
 }
+.img-container{
+    text-align: center;
+}
 .contact-img1{
-border-radius:50%;
 object-fit: cover;
+border-radius: 50%
 }
 .contact-img2{
-    border-radius:50%;
     object-fit: cover;
+    border-radius: 50%;
 }
 .contact-name, .staff-role-name{
     text-align: center;
