@@ -60,8 +60,7 @@ user-select:var(--user-select);
     height: 100%;
    /* background: rgb(3, 3, 14);*/
    background: #BF0040;
-    z-index: 2;
-
+   z-index: 2;
 }
 
 .sidebar ul a{
@@ -95,12 +94,12 @@ display: block;
 /*introduction*/
 .intro{
     /*background-color: rgb(10, 10, 22);*/
-    background: #BF0040;
+    background: rgb(182, 12, 69);
     height: 210px; 
     opacity:1;
 }
 .intro-heading1{
-    color: #ffffffe7;
+    color: #fff;
     padding: .8em;
     text-align: center;
     font-family: var(--font-header);
@@ -127,17 +126,22 @@ display: block;
     text-align: center;
     margin-bottom: .2em;
     border-radius: 4px;
-}
+} 
 
 /*main body*/
 main{
-    padding: 2em;
+    padding: 1em;
 }
 .img1{
-    max-width: 350px
+    max-width: 335px
+}
+iframe{
+    max-width: 335px;
+    border-radius: 2px;
 }
 .main-body-text{
-    max-width: 380px;
+    max-width: 500px;
+    min-width: 350px;
     padding: 10px;
     margin-bottom: 9px;
     border-radius: 8px;
@@ -145,11 +149,11 @@ main{
     letter-spacing: 1px;
 }
 .main-body-text h1{
-    margin-bottom: .5em;}
+    margin-bottom: .5em;} 
 .feeds-section{
 display: flex;
 flex-wrap: wrap;
-justify-content: space-evenly;
+justify-content: space-around;
 }
 .img1{
     object-fit: cover;
@@ -165,10 +169,13 @@ justify-content: space-evenly;
 body p{
     font-family: var(--font-body-paragraphs);
     font-weight: var(--font-weight);
-    line-height: 1.5em;
+    line-height: 1.8em;
+    font-size: .95rem;
 }
-.headings{font-weight: 550;
-           font-family:var(--font-body-paragraphs);
+.headings{
+    font-weight: 550;   
+    font-family:var(--font-body-paragraphs);
+   
 }
 /*read-more-text*/
 #readBtn{
@@ -176,12 +183,17 @@ body p{
     border:none;
     padding: .1em;
 }
+.dots{
+    margin-left: .5em;
+}
 .hide{display: none;}
 .ReadBtn{
     background-color: rgb(207, 207, 207);
     border: none;
     border-radius: 2px;
     color: lightslategrey;
+    margin-left: .5em;
+    margin-right: .5em;
         }
 /*footer*/
 footer{
@@ -231,11 +243,11 @@ background-color: #000000;
 border-radius: 4px;
 /*width: calc( 100% + 50px);*/
 }
-.about-section{
-    text-align: center;
-}
+
 .about-section div p{
     line-height: 1.5em;
+    margin-left: -2em;
+    margin-right: -.25em;
 }
 .about-section-title{
     text-align: center;
@@ -292,4 +304,26 @@ border-radius: 50%
 }
 .contact-name,.staff-role-name{
 color: #fff;
+}
+/*SHARE BUTTONS*/
+.share-btn{
+    padding: .5em;
+    position: relative;
+    top:.5em;
+}
+.share-btn i{
+    color: #005fee;
+}
+.share{ 
+    margin-left: 1.1em;
+    margin-right: 1.1em;
+    cursor: pointer;
+    transition: 1s;
+    background-color: rgb(192, 206, 206);
+    padding: .1em;
+    border-radius: .2em;
+}
+.share:hover{
+    height: 25px;
+    width: 25px;
 }
